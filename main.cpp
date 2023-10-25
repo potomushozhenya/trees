@@ -5,7 +5,7 @@
 int main() {
     std::vector<int> a ={0,1,3,5,-2,3};
     SegmentTree segmentTree(a);
-    std::cout<<segmentTree.sum(3,5)<<std::endl;
+    std::cout<<segmentTree.sum(2,4)<<std::endl;
     FenwickTree fenwickTree(a);
     fenwickTree.print();
     std::cout<<fenwickTree.sum(3,4)<<std::endl;
@@ -14,4 +14,3 @@ int main() {
     std::cout<<fenwickTree2D.sum(1,2);
     return 0;
 }
-algo
